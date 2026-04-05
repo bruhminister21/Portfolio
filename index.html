@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dev Nag | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Matrix Canvas Background -->
+  <canvas id="matrix-canvas"></canvas>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-logo">&lt;DevNag /&gt;</div>
+    <ul class="nav-links">
+      <li><a href="#home">~/home</a></li>
+      <li><a href="#about">~/about</a></li>
+      <li><a href="#experience">~/experience</a></li>
+      <li><a href="#projects">~/projects</a></li>
+      <li><a href="#skills">~/skills</a></li>
+      <li><a href="#education">~/education</a></li>
+      <li><a href="#contact">~/contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="#home" class="mob-link">~/home</a></li>
+      <li><a href="#about" class="mob-link">~/about</a></li>
+      <li><a href="#experience" class="mob-link">~/experience</a></li>
+      <li><a href="#projects" class="mob-link">~/projects</a></li>
+      <li><a href="#skills" class="mob-link">~/skills</a></li>
+      <li><a href="#education" class="mob-link">~/education</a></li>
+      <li><a href="#contact" class="mob-link">~/contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="terminal-bar">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+        <span class="terminal-title">bash — portfolio.sh</span>
+      </div>
+      <div class="terminal-body">
+        <p class="terminal-line"><span class="prompt">guest@devnag:~$</span> <span class="cmd">whoami</span></p>
+        <h1 class="glitch" data-text="Dev Nag">Dev Nag</h1>
+        <p class="terminal-line"><span class="prompt">guest@devnag:~$</span> <span class="cmd">cat roles.txt</span></p>
+        <p class="typewriter" id="typewriter"></p>
+        <p class="terminal-line"><span class="prompt">guest@devnag:~$</span> <span class="cmd">echo $CONTACT</span></p>
+        <p class="info-line">📞 +91 9137831812 &nbsp;|&nbsp; 📧 <a href="mailto:nagdev2004@gmail.com">nagdev2004@gmail.com</a></p>
+        <div class="hero-links">
+          <a href="https://github.com/bruhminister21" target="_blank" class="btn-link">[ GitHub ]</a>
+          <a href="https://leetcode.com/u/jasonrobinr/" target="_blank" class="btn-link">[ LeetCode ]</a>
+          <a href="https://www.linkedin.com/in/dev-nag-b23ab9284/" target="_blank" class="btn-link">[ LinkedIn ]</a>
+        </div>
+        <p class="terminal-line blink-line"><span class="prompt">guest@devnag:~$</span> <span class="cursor-blink">█</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title"><span class="hash">#</span> about_me.sh</h2>
+      <div class="section-divider"></div>
+      <div class="about-grid">
+        <div class="about-card">
+          <p class="comment">// Summary</p>
+          <p>Detail-oriented professional with <span class="highlight">3+ years of experience</span> in Software Development / Computer Science projects. Skilled in <span class="highlight">Java, SQL, Data Structures, and Problem Solving</span>. Seeking to contribute to a tech-driven company building scalable and impactful solutions.</p>
+          <br/>
+          <p>Creative thinker with a passion for Software Development. Experienced in <span class="highlight">APIs, Java, and database management</span>. Seeking to contribute to innovative teams solving real-world problems.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-box">
+            <span class="stat-num">3+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-num">5+</span>
+            <span class="stat-label">Projects Built</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-num">7.5</span>
+            <span class="stat-label">CGPA @ IIIT</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-num">∞</span>
+            <span class="stat-label">Lines of Code</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section alt-section">
+    <div class="container">
+      <h2 class="section-title"><span class="hash">#</span> experience.log</h2>
+      <div class="section-divider"></div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="exp-header">
+              <span class="exp-role">Hackathon Participant</span>
+              <span class="exp-badge">Status Code 1/2</span>
+            </div>
+            <p class="exp-company">📍 IISER Kolkata, Kalyani</p>
+            <ul class="exp-list">
+              <li><span class="arrow">&gt;&gt;</span> Worked on solving real-world problems through a hackathon project.</li>
+              <li><span class="arrow">&gt;&gt;</span> Built a system using <span class="highlight">OpenStreetMap</span> data to identify high-risk areas such as crime zones and pothole-prone roads.</li>
+              <li><span class="arrow">&gt;&gt;</span> Enabled users to provide map-based reviews and receive alerts for safer navigation.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title"><span class="hash">#</span> projects.json</h2>
+      <div class="section-divider"></div>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">📁</span>
+            <span class="project-num">01</span>
+          </div>
+          <h3 class="project-title">Personal Portfolio Website</h3>
+          <p class="project-desc">Developed a personal portfolio website to showcase projects and skills. Used modern web technologies to create a responsive, user-friendly design.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/bruhminister21" target="_blank" class="proj-btn">[ source ]</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">🔗</span>
+            <span class="project-num">02</span>
+          </div>
+          <h3 class="project-title">Blockchain-Based Voting System</h3>
+          <p class="project-desc">Created a blockchain-based voting system, ensuring transparency and tamper-proof voting. Implemented smart contract logic to maintain data integrity and trust.</p>
+          <div class="project-tags">
+            <span class="tag">Blockchain</span>
+            <span class="tag">Smart Contracts</span>
+            <span class="tag">Java</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/bruhminister21" target="_blank" class="proj-btn">[ source ]</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">🗺️</span>
+            <span class="project-num">03</span>
+          </div>
+          <h3 class="project-title">SafeRoute — Map Safety System</h3>
+          <p class="project-desc">Built using OpenStreetMap to identify high-risk areas like crime zones and pothole-prone roads. Allows users to provide map-based reviews and receive safety alerts.</p>
+          <div class="project-tags">
+            <span class="tag">OpenStreetMap</span>
+            <span class="tag">API</span>
+            <span class="tag">Node.js</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/bruhminister21" target="_blank" class="proj-btn">[ source ]</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section alt-section">
+    <div class="container">
+      <h2 class="section-title"><span class="hash">#</span> skills.config</h2>
+      <div class="section-divider"></div>
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <p class="skill-category"><span class="prompt-small">$</span> languages</p>
+          <div class="skill-tags">
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <p class="skill-category"><span class="prompt-small">$</span> concepts</p>
+          <div class="skill-tags">
+            <span class="skill-tag">OOP</span>
+            <span class="skill-tag">DSA</span>
+            <span class="skill-tag">API Design</span>
+            <span class="skill-tag">Backend Dev</span>
+            <span class="skill-tag">DB Management</span>
+            <span class="skill-tag">Blockchain</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <p class="skill-category"><span class="prompt-small">$</span> tools</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">OpenStreetMap</span>
+            <span class="skill-tag">Linux</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Skill Bars -->
+      <div class="skill-bars">
+        <div class="skill-bar-item">
+          <div class="skill-bar-label"><span>Java</span><span class="skill-pct">85%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-width="85"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-label"><span>Python</span><span class="skill-pct">75%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-width="75"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-label"><span>DSA / Problem Solving</span><span class="skill-pct">80%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-width="80"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-label"><span>SQL / Database</span><span class="skill-pct">78%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-width="78"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-label"><span>Web Development</span><span class="skill-pct">70%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-width="70"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section">
+    <div class="container">
+      <h2 class="section-title"><span class="hash">#</span> education.db</h2>
+      <div class="section-divider"></div>
+      <div class="edu-grid">
+
+        <div class="edu-card">
+          <div class="edu-icon">🎓</div>
+          <div class="edu-info">
+            <h3 class="edu-school">IIIT Kalyani</h3>
+            <p class="edu-degree">B.Tech CSE <span class="edu-year">(2023 – 2027)</span></p>
+            <p class="edu-score"><span class="prompt-small">$</span> score: <span class="highlight">7.5 CGPA</span></p>
+          </div>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-icon">🏫</div>
+          <div class="edu-info">
+            <h3 class="edu-school">K.V Sangathan, Ambernath</h3>
+            <p class="edu-degree">Higher Secondary <span class="edu-year">(2010 – 2022)</span></p>
+            <p class="edu-score"><span class="prompt-small">$</span> score: <span class="highlight">83%</span></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section alt-section">
+    <div class="container">
+      <h2 class="section-title"><span class="hash">#</span> contact.sh</h2>
+      <div class="section-divider"></div>
+      <div class="contact-wrapper">
+        <div class="contact-terminal">
+          <div class="terminal-bar">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="terminal-title">contact — dev_nag</span>
+          </div>
+          <div class="contact-body">
+            <p><span class="prompt">$</span> cat contact.json</p>
+            <div class="contact-json">
+              <p><span class="json-key">"name"</span>: <span class="json-val">"Dev Nag"</span>,</p>
+              <p><span class="json-key">"phone"</span>: <span class="json-val">"+91 9137831812"</span>,</p>
+              <p><span class="json-key">"email"</span>: <span class="json-val">"nagdev2004@gmail.com"</span>,</p>
+              <p><span class="json-key">"github"</span>: <span class="json-val">"github.com/bruhminister21"</span>,</p>
+              <p><span class="json-key">"linkedin"</span>: <span class="json-val">"linkedin.com/in/dev-nag-b23ab9284"</span>,</p>
+              <p><span class="json-key">"leetcode"</span>: <span class="json-val">"leetcode.com/u/jasonrobinr"</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:nagdev2004@gmail.com" class="contact-btn">
+            <span class="cb-icon">📧</span>
+            <span>Email Me</span>
+          </a>
+          <a href="https://www.linkedin.com/in/dev-nag-b23ab9284/" target="_blank" class="contact-btn">
+            <span class="cb-icon">💼</span>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/bruhminister21" target="_blank" class="contact-btn">
+            <span class="cb-icon">🐙</span>
+            <span>GitHub</span>
+          </a>
+          <a href="https://leetcode.com/u/jasonrobinr/" target="_blank" class="contact-btn">
+            <span class="cb-icon">⚡</span>
+            <span>LeetCode</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p><span class="prompt">guest@devnag:~$</span> echo <span class="highlight">"Built with ❤️ by Dev Nag"</span></p>
+    <p class="footer-copy">© 2024 Dev Nag — All rights reserved.</p>
+  </footer>
+
+  <!-- Scroll to Top -->
+  <button id="scroll-top" title="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
